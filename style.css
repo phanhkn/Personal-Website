@@ -2,13 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+img {
+  border-radius: 50%;
+  width: 10rem;
 }
 
 nav {
   height: 80px;
-  background: #fdcc04;
+  background: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +19,7 @@ nav {
 }
 
 .logo {
-  color: #000;
+  color: #fdcc04;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
@@ -25,7 +28,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #000;
+  color: #fdcc04;
   padding: 0 1.5rem;
 }
 
@@ -34,7 +37,7 @@ nav a:hover {
 }
 
 .yeet {
-  background: #fdcc04;
+  background: #000;
 }
 
 .yeet-container {
@@ -49,7 +52,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #000;
+  color: #fdcc04;
   padding: 0rem 2rem;
 }
 
@@ -65,11 +68,12 @@ nav a:hover {
 }
 
 button {
-  padding: 1rem;
+  padding: 0.5rem;
+  width: 5rem;
   font-size: 1rem;
   border: none;
-  color: #fdcc04;
-  background: #000;
+  color: #000;
+  background: #fdcc04;
   cursor: pointer;
   border-radius: 50px;
 }
