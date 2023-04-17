@@ -36,6 +36,7 @@ nav a:hover {
 body {
   background-color: #ffff;
 }
+
 input[type="text"],
 select,
 textarea {
@@ -48,18 +49,22 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-
-input[type="submit"] {
-  background-color: #000000;
-  color: #dd2d4a;
-  padding: 12px 20px;
-  border: none;
+input[type="Email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-input[type="submit"]:hover {
-  background-color: #c4b000;
+button:hover {
+  background-color: gray;
+  color: white;
 }
 
 .container {
