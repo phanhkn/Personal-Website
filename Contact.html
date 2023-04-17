@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <script defer src="contact.js"></script>
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Khoi Phan</div>
+      <div class="nav-items">
+        <a href="Home.html">Home</a><a href="Portfolio.html">Portfolio</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <form action="contact.js"></form>
+      <label for="fname">First Name</label>
+      <input
+        type="text"
+        id="fname"
+        name="firstname"
+        placeholder="Your first name"
+      />
+
+      <label for="lname">Last Name</label>
+      <input
+        type="text"
+        id="lname"
+        name="lastname"
+        placeholder="Your last name"
+      />
+
+      <label for="email">Email</label>
+      <input
+        type="text"
+        id="lname"
+        name="lastname"
+        placeholder="Your Email Address"
+      />
+
+      <label for="subject">Subject</label>
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="Leave a message"
+        style="height: 200px"
+      ></textarea>
+
+      <input type="submit" value="Submit" />
+    </div>
+  </body>
+</html>

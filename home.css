@@ -94,8 +94,16 @@ button:hover {
   height: 60%;
 }
 
-@media screen and (max-width: 768px) {
-  .hero-container {
-    grid-template-columns: 1fr;
+@media screen and (min-width: 992px) {
+  .about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-left {
+    position: relative;
+  }
+  .about-left-content {
+    position: absolute;
+    right: -50px;
   }
 }
